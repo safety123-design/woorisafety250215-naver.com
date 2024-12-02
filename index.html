@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>우리안전기술단(주)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/your-code.js"></script>
+</head>
+<body class="font-['Noto_Sans_KR'] antialiased">
+    <!-- 상단 정보 바 -->
+    <div class="bg-blue-900 text-white py-2">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-end text-sm">
+                <span class="mr-4">Tel: 055-202-7152</span>
+                <span>Email: woorisafety2502@naver.com</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 네비게이션 바 -->
+    <nav class="bg-white shadow-lg fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <span class="text-blue-800 font-bold text-xl">우리안전기술단</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <!-- 회사소개 드롭다운 -->
+                    <div class="relative group">
+                        <a href="#company" class="text-gray-700 hover:text-blue-800 px-3 py-2 transition duration-300">회사소개</a>
+                        <div class="absolute hidden group-hover:block w-48 bg-white shadow-lg py-2">
+                            <a href="#greeting" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50">인사말</a>
+                            <a href="#organization" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50">조직도</a>
+                            <a href="#history" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50">회사연혁</a>
+                            <a href="#location" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50">오시는길</a>
+                        </div>
+                    </div>
+
+                    <!-- 서비스 분야 드롭다운 -->
+                    <div class="relative group">
+                        <a href="#services" class="text-gray-700 hover:text-blue-800 px-3 py-2 transition duration-300">서비스 분야</a>
+                        <div class="absolute hidden group-hover:block w-56 bg-white shadow-lg py-2">
+                            <a href="#tech" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50">재해예방기술지도</a>
+                            <a href="#consulting" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50">안전보건컨설팅</a>
+                            <a href="#risk" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50">위험성평가</a>
+                            <a href="#safety-plan" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50">안전관리계획서</a>
+                            <a href="#health-doc" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50">공사안전보건대장</a>
+                            <a href="#health-system" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50">안전보건관리체계</a>
+                            <a href="#hazard-plan" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50">유해위험방지계획서</a>
+                            <a href="#safety-edu" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50">안전교육 및 사업장안전관리</a>
+                        </div>
+                    </div>
+
+                    <!-- 자료실 -->
+                    <a href="#library" class="text-gray-700 hover:text-blue-800 px-3 py-2 transition duration-300">자료실</a>
+
+                    <!-- 전문가 소개 -->
+                    <a href="#experts" class="text-gray-700 hover:text-blue-800 px-3 py-2 transition duration-300">전문가 소개</a>
+                </div>
+
+                <!-- 모바일 메뉴 버튼 -->
+                <div class="md:hidden flex items-center">
+                    <button class="text-gray-700 hover:text-blue-800">
+                        <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 메인 비주얼 -->
+    <section class="relative h-[600px] bg-gradient-to-r from-blue-900 to-blue-700 text-white">
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div class="relative max-w-7xl mx-auto px-4 h-full flex items-center">
+            <div class="space-y-6">
+                <h1 class="text-5xl font-bold">우리안전기술단(주)</h1>
+                <p class="text-2xl">사업장의 재해예방기술지도와 안전컨설팅으로<br>최고의 파트너가 되겠습니다.</p>
+                <button class="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-lg transition duration-300">
+                    <a href="https://youtu.be/YTwWcbKMCjU?si=E8DuBIM_hWcAUxx-" target="_blank" class="text-white">회사소개 바로가기</a>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 주요 서비스 섹션 업데이트 -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-16">주요 서비스</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+                    <div class="p-8">
+                        <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
+                            <i class="fas fa-shield-alt text-3xl text-blue-600"></i>
+                        </div>
+                        <a href="https://bit.ly/3Zx0T8r" target="_blank">
+                            <h3 class="text-xl font-bold mb-4">재해예방기술지도</h3>
+                            <p class="text-gray-600">전문적인 기술지도를 통한 산업재해 예방 및 안전관리</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+                    <div class="p-8">
+                        <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
+                            <i class="fas fa-comments text-3xl text-blue-600"></i>
+                        </div>
+                        <a href="https://bit.ly/4iaaCbP" target="_blank">
+                            <h3 class="text-xl font-bold mb-4">안전보건컨설팅</h3>
+                            <p class="text-gray-600">맞춤형 안전보건 컨설팅 서비스 제공</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+                    <div class="p-8">
+                        <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
+                            <i class="fas fa-chart-line text-3xl text-blue-600"></i>
+                        </div>
+                        <a href="https://kras.kosha.or.kr/" target="_blank">
+                            <h3 class="text-xl font-bold mb-4">위험성평가</h3>
+                            <p class="text-gray-600">최초/수시 위험성평가 및 개선방안 제시</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+                    <div class="p-8">
+                        <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
+                            <i class="fas fa-file-alt text-3xl text-blue-600"></i>
+                        </div>
+                        <a href="https://www.csi.go.kr/por/about_smp_001.do" target="_blank">
+                            <h3 class="text-xl font-bold mb-4">안전관리계획서</h3>
+                            <p class="text-gray-600">전문적인 안전관리계획서 작성 및 CSI 등록</p>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+                    <div class="p-8">
+                        <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
+                            <i class="fas fa-book text-3xl text-blue-600"></i>
+                        </div>
+                        <a href="https://trevilime.orientalight.com/entry/%EA%B1%B4%EC%84%A4%EA%B3%B5%EC%82%AC-%EC%95%88%EC%A0%84%EB%B3%B4%EA%B1%B4%EB%8C%80%EC%9E%A5-%EC%9E%91%EC%84%B1%EB%8C%80%EC%83%81-%EB%B0%8F-%EC%9E%91%EC%84%B1%EB%B0%A9%EB%B2%95-%EC%A0%95%EB%A6%ACfeat-%EC%96%91%EC%8B%9D%EC%83%98%ED%94%8C" target="_blank">
+                            <h3 class="text-xl font-bold mb-4">공사안전보건대장</h3>
+                            <p class="text-gray-600">공사안전보건대장 작성 및 이행 확인점검</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+                    <div class="p-8">
+                        <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
+                            <i class="fas fa-tasks text-3xl text-blue-600"></i>
+                        </div>
+                        <a href="https://m.blog.naver.com/hadaworks/223446363961" target="_blank">
+                            <h3 class="text-xl font-bold mb-4">안전보건관리체계</h3>
+                            <p class="text-gray-600">중대재해처벌법 대응 안전보건관리체계 구축 및 이행점검 지원</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+                    <div class="p-8">
+                        <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
+                            <i class="fas fa-file-signature text-3xl text-blue-600"></i>
+                        </div>
+                        <a href="https://www.kosha.or.kr/kosha/business/confirmation.do" target="_blank">
+                            <h3 class="text-xl font-bold mb-4">유해위험방지계획서</h3>
+                            <p class="text-gray-600">전문적인 유해위험방지계획서 작성 지원</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+                    <div class="p-8">
+                        <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
+                            <i class="fas fa-exclamation-triangle text-3xl text-blue-600"></i>
+                        </div>
+                        <a href="https://www.safetyedu.net/safetyedu/efrt2201e" target="_blank">
+                            <h3 class="text-xl font-bold mb-4">안전교육 및 사업장 안전관리</h3>
+                            <p class="text-gray-600">사업장 안전교육 및 상주 안전관리 지원</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 전문가 소개 섹션 -->
+    <section id="experts" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">전문가 소개</h2>
+                <p class="text-gray-600">우리안전기술단의 전문가들을 소개합니다</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+                    <div class="p-8">
+                        <div class="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-6">
+                            <input type="file" id="expertImage" accept="image/*" class="hidden" onchange="handleImageUpload(event)">
+                            <label for="expertImage" class="cursor-pointer">
+                                <img id="previewImage" src="/images/experts/김정규.jpg" alt="김정규 대표이사" class="w-full h-full object-cover rounded-full">
+                            </label>
+                            <script>
+                                function handleImageUpload(event) {
+                                    const file = event.target.files[0];
+                                    if (file) {
+                                        const reader = new FileReader();
+                                        reader.onload = function(e) {
+                                            const imageData = e.target.result;
+                                            document.getElementById('previewImage').src = imageData;
+                                            // 로컬 스토리지에 이미지 데이터 저장
+                                            localStorage.setItem('expertImage', imageData);
+                                        }
+                                        reader.readAsDataURL(file);
+                                    }
+                                }
+
+                                // 페이지 로드 시 저장된 이미지 불러오기
+                                window.onload = function() {
+                                    const savedImage = localStorage.getItem('expertImage');
+                                    if (savedImage) {
+                                        document.getElementById('previewImage').src = savedImage;
+                                    }
+                                }
+                            </script>
+                        </div>
+                        <h3 class="text-xl font-bold text-center mb-2">김정규</h3>
+                        <p class="text-gray-600 text-center mb-2">대표이사</p>
+                        <p class="text-sm text-gray-500 text-center">
+                            - 기술사<br>
+                              (건설안전/도로및공항/시공)<br>
+                            - 산업안전지도사<br>
+                            - 기업재난관리사<br>
+                            - 국제기술사(APEC)<br>
+                            - ISO22301:2019(BCMS)<br>
+                            - ISO45001:2018심사원(보)<br>
+                            - 경남지방건설기술심의위원<br>
+                            - LH 건설안전자문위원<br>
+                            - 경남개발공사 기술자문위원<br>
+                            - 경상남도 건축안전전문위원<br>
+                            - 경남개발공사 안전자문위원<br>
+                            - 울산시 건축안전자문위원<br>
+                            - (전)한국도로공사 기술자문위원<br>
+                            - 저서'건설안전기술사'외 2권
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+                    <div class="p-8">
+                        <div class="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-6">
+                            <input type="file" id="expertImage2" accept="image/*" class="hidden" onchange="handleImageUpload2(event)">
+                            <label for="expertImage2" class="cursor-pointer">
+                                <img id="previewImage2" src="/images/experts/김철영.jpg" alt="김철영 대표이사" class="w-full h-full object-cover rounded-full">
+                            </label>
+                            <script>
+                                function handleImageUpload2(event) {
+                                    const file = event.target.files[0];
+                                    if (file) {
+                                        const reader = new FileReader();
+                                        reader.onload = function(e) {
+                                            const imageData = e.target.result;
+                                            document.getElementById('previewImage2').src = imageData;
+                                            // 로컬 스토리지에 이미지 데이터 저장
+                                            localStorage.setItem('expertImage2', imageData);
+                                        }
+                                        reader.readAsDataURL(file);
+                                    }
+                                }
+
+                                // 페이지 로드 시 저장된 이미지 불러오기
+                                window.onload = function() {
+                                    const savedImage = localStorage.getItem('expertImage2');
+                                    if (savedImage) {
+                                        document.getElementById('previewImage2').src = savedImage;
+                                    }
+                                }
+                            </script>
+                        </div>
+                        <h3 class="text-xl font-bold text-center mb-2">김철영</h3>
+                        <p class="text-gray-600 text-center mb-2">대표이사</p>
+                        <p class="text-sm text-gray-500 text-center">
+                            - 건설안전기술사<br>
+                            - 재난안전지도사<br>
+                            - 인문학지도사<br>
+                            - 서울시설공단 기술자문위원<br>
+                            - 국가철도공단 안전자문위원<br>
+                            - 안전보건체계구축 컨설턴트<br>
+                            - (전)전문건설업 대표이사<br>
+                            - 위험성평가 전문컨설턴트<br>
+                            - 건설현장 실무경력 25년
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+                    <div class="p-8">
+                        <div class="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-6">
+                            <input type="file" id="expertImage3" accept="image/*" class="hidden" onchange="handleImageUpload3(event)">
+                            <label for="expertImage3" class="cursor-pointer">
+                                <img id="previewImage3" src="/images/experts/이재준.jpg" alt="이재준 기술지도팀장" class="w-full h-full object-cover rounded-full">
+                            </label>
+                            <script>
+                                function handleImageUpload3(event) {
+                                    const file = event.target.files[0];
+                                    if (file) {
+                                        const reader = new FileReader();
+                                        reader.onload = function(e) {
+                                            const imageData = e.target.result;
+                                            document.getElementById('previewImage3').src = imageData;
+                                            // 로컬 스토리지에 이미지 데이터 저장
+                                            localStorage.setItem('expertImage3', imageData);
+                                        }
+                                        reader.readAsDataURL(file);
+                                    }
+                                }
+
+                                // 페이지 로드 시 저장된 이미지 불러오기
+                                window.onload = function() {
+                                    const savedImage = localStorage.getItem('expertImage3');
+                                    if (savedImage) {
+                                        document.getElementById('previewImage3').src = savedImage;
+                                    }
+                                }
+                            </script>
+                        </div>
+                        <h3 class="text-xl font-bold text-center mb-2">이재준</h3>
+                        <p class="text-gray-600 text-center mb-2">기술지도팀장</p>
+                        <p class="text-sm text-gray-500 text-center">
+                            - 수석컨설턴트<br>
+                            - 안전기사<br>
+                            - 위험성평가 컨설턴트<br>
+                            - (전)SK건설 안전관리자<br>
+                            - 안전관리계획서 작성 및 CSI등록<br>
+                            - 유해위험방지계획서 작성<br>
+                            - 공사안전보건대장 작성 및 이행점검<br>
+                            - 안전보건컨설팅 경력 7년
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-gray-50 py-16"></section>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">자료실</h2>
+                <p class="text-lg text-gray-600">산업안전보건 관련 유용한 자료들을 제공해드립니다</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition duration-300">
+                    <div class="flex items-center justify-center w-12 h-12 bg-blue-100 rounded-lg mb-4">
+                        <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">기술안전</h3>
+                    <p class="text-gray-600 mb-4">사업장 실무안전관련 정보</p>
+                    <a href="https://blog.naver.com/hmskjk0715" class="text-blue-600 hover:text-blue-800">자세히 보기 →</a>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition duration-300">
+                    <div class="flex items-center justify-center w-12 h-12 bg-green-100 rounded-lg mb-4">
+                        <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">안전보건법령 스마트검색</h3>
+                    <p class="text-gray-600 mb-4">안전보건법령 스마트검색 서비스</p>
+                    <a href="https://smartsearch.kosha.or.kr" class="text-green-600 hover:text-green-800">자세히 보기 →</a>
+                </div>
+               
+                <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition duration-300">
+                    <div class="flex items-center justify-center w-12 h-12 bg-red-100 rounded-lg mb-4">
+                        <svg class="w-6 h-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">일일 건설안전관리 상황판</h3>
+                    <p class="text-gray-600 mb-4">오늘날짜의 '과거 6년간 중대재해 현황 및 위험성평가표'</p>
+                    <a href="https://www.kosha.or.kr/constplan/ECSAA00100M01/sittnBoardMain.do#" class="text-red-600 hover:text-red-800">자세히 보기 →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 푸터 -->
+    <footer class="bg-gray-900 text-gray-300 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-white font-bold text-lg mb-4">우리안전기술단(주)</h3>
+                    <p class="text-sm">고용노동부 지정 재해예방전문지도기관</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-4">연락처</h4>
+                    <p class="text-sm">Tel: 055-202-7152</p>
+                    <p class="text-sm">주소: 경상남도 진주시 초전동 우리대로 준화BD 2F</p>
+                    <p class="text-sm">Email: woorisafety2502@naver.com</p>
+                </div>
+                <!-- 추가 푸터 컨텐츠 -->
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
